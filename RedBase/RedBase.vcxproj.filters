@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\components">
+      <UniqueIdentifier>{00747729-e019-4847-9d15-c78acd1ef274}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\components\index">
+      <UniqueIdentifier>{4bfd74e4-cce4-4b30-809e-567d062b6aae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\components\pagefile">
+      <UniqueIdentifier>{1fa1f759-beea-4e72-ba28-c432d71fb961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\components\record_management">
+      <UniqueIdentifier>{3ab8fa70-2cbc-4d10-9282-86a8617a0431}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\components">
+      <UniqueIdentifier>{dd13f508-38f1-4ec2-8dc4-d4581acd069f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\components\pagefile">
+      <UniqueIdentifier>{915e3b3a-98f0-4b86-bb4f-31bef6efbdda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\components\query_language">
+      <UniqueIdentifier>{2f5add7d-b9f3-49e6-b67e-525bdde39df6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\components\record_management">
+      <UniqueIdentifier>{a3b90d70-2214-4c47-bcb2-6ca3bb80cafa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\components\index">
+      <UniqueIdentifier>{a64d8117-d8c1-4983-9983-88842e01274a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\components\system_management">
+      <UniqueIdentifier>{70287be4-0bc9-4f6d-8d2c-bbdaeb7f6524}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\components\system_management">
+      <UniqueIdentifier>{1a285974-7c43-42d2-a7a6-fa3069233fb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\components\parser">
+      <UniqueIdentifier>{51188f1c-8804-4d33-ac77-f1835152a7b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\components\query_language">
+      <UniqueIdentifier>{9a4ba2a5-44ec-4a10-9947-c2c041d3ef5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\components\helper">
+      <UniqueIdentifier>{c073a85f-a525-4e4a-b243-6ee442524ab2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\components\core">
+      <UniqueIdentifier>{3519e5f7-6cc0-40ca-bfd5-3cc66001ae82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="redbase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ql.h">
+      <Filter>Header Files\components\query_language</Filter>
+    </ClInclude>
+    <ClInclude Include="ql_internal.h">
+      <Filter>Header Files\components\query_language</Filter>
+    </ClInclude>
+    <ClInclude Include="ex.h">
+      <Filter>Header Files\components\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="ix.h">
+      <Filter>Header Files\components\index</Filter>
+    </ClInclude>
+    <ClInclude Include="ix_internal.h">
+      <Filter>Header Files\components\index</Filter>
+    </ClInclude>
+    <ClInclude Include="parser.h">
+      <Filter>Header Files\components\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="pf.h">
+      <Filter>Header Files\components\pagefile</Filter>
+    </ClInclude>
+    <ClInclude Include="rm.h">
+      <Filter>Header Files\components\record_management</Filter>
+    </ClInclude>
+    <ClInclude Include="rm_internal.h">
+      <Filter>Header Files\components\record_management</Filter>
+    </ClInclude>
+    <ClInclude Include="rm_rid.h">
+      <Filter>Header Files\components\record_management</Filter>
+    </ClInclude>
+    <ClInclude Include="sm.h">
+      <Filter>Header Files\components\system_management</Filter>
+    </ClInclude>
+    <ClInclude Include="printer.h">
+      <Filter>Header Files\components\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="pf_internal.h">
+      <Filter>Header Files\components\pagefile</Filter>
+    </ClInclude>
+    <ClInclude Include="pf_hashtable.h">
+      <Filter>Header Files\components\pagefile</Filter>
+    </ClInclude>
+    <ClInclude Include="pf_buffermgr.h">
+      <Filter>Header Files\components\pagefile</Filter>
+    </ClInclude>
+    <ClInclude Include="linkedlist.h">
+      <Filter>Header Files\components\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="parser_internal.h">
+      <Filter>Header Files\components\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="statistics.h">
+      <Filter>Header Files\components\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="y.tab.h">
+      <Filter>Header Files\components\helper</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="rm_rid.cpp">
+      <Filter>Source Files\components\record_management</Filter>
+    </ClCompile>
+    <ClCompile Include="ql_manager.cpp">
+      <Filter>Source Files\components\query_language</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_abhinav.cpp">
+      <Filter>Source Files\components\core</Filter>
+    </ClCompile>
+    <ClCompile Include="interp.cpp">
+      <Filter>Source Files\components\query_language</Filter>
+    </ClCompile>
+    <ClCompile Include="ix_indexhandle.cpp">
+      <Filter>Source Files\components\index</Filter>
+    </ClCompile>
+    <ClCompile Include="ix_indexscan.cpp">
+      <Filter>Source Files\components\index</Filter>
+    </ClCompile>
+    <ClCompile Include="ix_manager.cpp">
+      <Filter>Source Files\components\index</Filter>
+    </ClCompile>
+    <ClCompile Include="ix_printerror.cpp">
+      <Filter>Source Files\components\index</Filter>
+    </ClCompile>
+    <ClCompile Include="nodes.cpp">
+      <Filter>Source Files\components\core</Filter>
+    </ClCompile>
+    <ClCompile Include="pf_buffermanager.cpp">
+      <Filter>Source Files\components\pagefile</Filter>
+    </ClCompile>
+    <ClCompile Include="pf_filehandle.cpp">
+      <Filter>Source Files\components\pagefile</Filter>
+    </ClCompile>
+    <ClCompile Include="pf_hashtable.cpp">
+      <Filter>Source Files\components\pagefile</Filter>
+    </ClCompile>
+    <ClCompile Include="pf_manager.cpp">
+      <Filter>Source Files\components\pagefile</Filter>
+    </ClCompile>
+    <ClCompile Include="pf_pagehandle.cpp">
+      <Filter>Source Files\components\pagefile</Filter>
+    </ClCompile>
+    <ClCompile Include="printer.cpp">
+      <Filter>Source Files\components\core</Filter>
+    </ClCompile>
+    <ClCompile Include="ql_operators.cpp">
+      <Filter>Source Files\components\query_language</Filter>
+    </ClCompile>
+    <ClCompile Include="ql_printerror.cpp">
+      <Filter>Source Files\components\query_language</Filter>
+    </ClCompile>
+    <ClCompile Include="rm_filehandle.cpp">
+      <Filter>Source Files\components\record_management</Filter>
+    </ClCompile>
+    <ClCompile Include="rm_filescan.cpp">
+      <Filter>Source Files\components\record_management</Filter>
+    </ClCompile>
+    <ClCompile Include="rm_manager.cpp">
+      <Filter>Source Files\components\record_management</Filter>
+    </ClCompile>
+    <ClCompile Include="rm_printerror.cpp">
+      <Filter>Source Files\components\record_management</Filter>
+    </ClCompile>
+    <ClCompile Include="rem_record.cpp">
+      <Filter>Source Files\components\record_management</Filter>
+    </ClCompile>
+    <ClCompile Include="sm_manager.cpp">
+      <Filter>Source Files\components\system_management</Filter>
+    </ClCompile>
+    <ClCompile Include="sm_printerror.cpp">
+      <Filter>Source Files\components\system_management</Filter>
+    </ClCompile>
+    <ClCompile Include="pf_statistics.cpp">
+      <Filter>Source Files\components\pagefile</Filter>
+    </ClCompile>
+    <ClCompile Include="statistics.cpp">
+      <Filter>Source Files\components\core</Filter>
+    </ClCompile>
+    <ClCompile Include="parser.cpp">
+      <Filter>Source Files\components\core</Filter>
+    </ClCompile>
+    <ClCompile Include="pf_error.cpp">
+      <Filter>Source Files\components\pagefile</Filter>
+    </ClCompile>
+    <ClCompile Include="lex_flex_generals.cpp">
+      <Filter>Source Files\components\core</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
