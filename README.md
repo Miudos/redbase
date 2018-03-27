@@ -83,9 +83,10 @@ Drop Index:
 
 Details about the project: https://web.stanford.edu/class/cs346/2015/redbase.html
 
+
 TODO:
-    Improve the syntax error message, specifying the invalid character in a query;
-    Implement ORDER BY (asc: 1, none: 0, desc= -1);
-    Provide test project;
+1. Improve the syntax error message, specifying the invalid character in a query;
+2. Implement ORDER BY (asc: 1, none: 0, desc= -1);
+3. Provide test project;
 
 I hope that this code help who want to learn a bit more about the internals of database engines.
